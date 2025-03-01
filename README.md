@@ -19,21 +19,24 @@ It then summarizes the distribution of detected microhomology across different f
 ```bash
 git clone https://github.com/Makoto-Kashima/microhomology-detection
 cd microhomology-detection
+```
 
 ### Install required dependencies
 This script requires **Python 3** and the following Python libraries:
 ```bash
 pip install biopython pandas numpy
+```
 
 ## Usage
 To run the script, use:
 ```bash
 python script.py <chromosome_number> <fasta_file>
+```
 
 ## Example
 ```bash
 python script.py 1 GCF_000002035.5_GRCz10_genomic.fna
-
+```
 Arguments:
 <chromosome_number> → Chromosome index (1-based)
 <fasta_file> → Path to the FASTA genome file
