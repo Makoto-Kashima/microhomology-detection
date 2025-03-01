@@ -49,9 +49,8 @@ for maxLength in range(50, 201, 50):
 # Summarize microhomology coverage
 window_size = 1000  # Define the window size
 for maxLength in range(50, 201, 50):  # Loop over maxLength values (50, 100, 150, 200)
-    pass_array = np.zeros(seq_length, dtype=int)  # Initialize array
-
     for kmer in range(6, 11):
+        pass_array = np.zeros(seq_length, dtype=int)  # Initialize array
         microhomology_file = f"{microhomology_dir}/kmer{kmer:02d}_chrom{chrom+1:02d}_maxLength{maxLength:03d}.csv"
 
         # Read the detected microhomology data
