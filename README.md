@@ -39,9 +39,9 @@ python Microhomology_Detection.py 1 GCF_000002035.5_GRCz10_genomic.fna
 ```
 Arguments:
 
-<chromosome_number> → Chromosome index (1-based)
+<chromosome_number> → Chromosome number 
 
-<fasta_file> → Path to the FASTA genome file
+<fasta_file> → Path to the FASTA genome file. Sequence names should be like **>1**.
 
 The script will automatically process maxLength values: 50, 100, 150, and 200.
 
