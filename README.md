@@ -41,7 +41,7 @@ Arguments:
 
 <chromosome_number> → Chromosome number 
 
-<fasta_file> → Path to the FASTA genome file. Sequence names should be like **>1**.
+<fasta_file> → Path to the FASTA genome file. Sequence names should be like **">1"**.
 
 The script will automatically process maxLength values: 50, 100, 150, and 200.
 
