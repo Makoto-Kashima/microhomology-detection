@@ -38,6 +38,9 @@ python script.py <chromosome_number> <fasta_file>
 python script.py 1 GCF_000002035.5_GRCz10_genomic.fna
 ```
 Arguments:
+
 <chromosome_number> → Chromosome index (1-based)
+
 <fasta_file> → Path to the FASTA genome file
+
 The script will automatically process maxLength values: 50, 100, 150, and 200.
