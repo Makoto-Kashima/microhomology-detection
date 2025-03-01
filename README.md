@@ -30,12 +30,12 @@ pip install biopython pandas numpy
 ## Usage
 To run the script, use:
 ```bash
-python script.py <chromosome_number> <fasta_file>
+python Microhomology_Detection.py <chromosome_number> <fasta_file>
 ```
 
 ## Example
 ```bash
-python script.py 1 GCF_000002035.5_GRCz10_genomic.fna
+python Microhomology_Detection.py 1 GCF_000002035.5_GRCz10_genomic.fna
 ```
 Arguments:
 
